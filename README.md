@@ -7,5 +7,5 @@
 
 ## Configuration de base
 3. [Changer de langue](./003-changer-de-langue.md)
-
+4. [Utiliser des alias d'url avec Pathauto](./004-alias-d-url.md)
 
