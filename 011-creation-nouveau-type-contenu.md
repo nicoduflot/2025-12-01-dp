@@ -41,3 +41,14 @@
 * Taxonomie genre
 * Galerie de Media (image ou vidéo en illimité)
 * Créateur / Créatrice (champ référence au contenu Créateur / créatrice, illimité car plusieurs peuvent intervenir sur un contenu)
+
+## Ecouter
+
+### Les champs
+
+* Titre (déjà présent de base pour tout nouveau type de contenu)
+* Corps (déjà présent de base pour tout nouveau type de contenu)
+* Taxonomie support
+* Taxonomie genre
+* Galerie de Media (image ou vidéo ou son en illimité)
+* Créateur / Créatrice (champ référence au contenu Créateur / créatrice, illimité car plusieurs peuvent intervenir sur un contenu)
