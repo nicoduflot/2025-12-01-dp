@@ -4,17 +4,17 @@ Les taxonomie correspondes à des vocabulaires contenant des termes qui serviron
 
 Voilà l'arborescence actuelle retenue
 
-| type de contenu   | Taxonomie(s)  |
-|-------------------|---------------|
-|Page               |               |
-|Article            | Étiquettes    |
-|Article            | Catégories    |
-|Voir               | Support vidéo |
-|Voir               | Genres vidéo |
-|Lire               |Support littéraire|
-|Lire               |Genre littéraire|
-|Écouter            |Support audio  |
-|Écouter            |Genre audio  |
+| type de contenu   | Taxonomie(s)      |
+|-------------------|-------------------|
+|Page               |                   |
+|Article            | Étiquettes        |
+|Article            | Catégories        |
+|Voir               | Support vidéo     |
+|Voir               | Genres vidéo      |
+|Lire               |Support littéraire |
+|Lire               |Genre littéraire   |
+|Écouter            |Support audio      |
+|Écouter            |Genre audio        |
 
 Pour ajouter une taxonomie (un vocabulaire)
 
