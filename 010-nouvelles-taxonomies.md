@@ -8,17 +8,18 @@
 
 Voilà l'arborescence actuelle retenue
 
-| type de contenu   | Taxonomie(s)      |Réalisé    |
-|-------------------|-------------------|-----------|
-|Page               |                   |           |
-|Article            | Étiquettes        |    OK     |
-|Article            | Catégories        |    OK     |
-|Voir               | Support vidéo     |           |
-|Voir               | Genres vidéo      |           |
-|Lire               |Support littéraire |           |
-|Lire               |Genre littéraire   |           |
-|Écouter            |Support audio      |           |
-|Écouter            |Genre audio        |           |
+| type de contenu       | Taxonomie(s)      |Réalisé Contenu    | Réalisé taxonomie |
+|-----------------------|-------------------|-------------------|-------------------|
+|Page                   |                   |                   |                   |
+|Article                | Étiquettes        |    OK             |      OK           |
+|Article                | Catégories        |    OK             |      OK           |
+|Créateur - Créatrice   |                   |                   |                   |
+|Lire                   |Support littéraire |                   |      OK           |
+|Lire                   |Genre littéraire   |                   |      OK           |
+|Voir                   | Support vidéo     |                   |      OK           |
+|Voir                   | Genres vidéo      |                   |      OK           |
+|Écouter                |Support audio      |                   |      OK           |
+|Écouter                |Genre audio        |                   |      OK           |
 
 ```batch
 Article (Par défaut mais il faut ajouter une taxonomie)
@@ -27,19 +28,10 @@ Article (Par défaut mais il faut ajouter une taxonomie)
 		Catégories
 			- News
 
-Voir
-	Les taxonomies de Voir :
-	Support vidéo
-		- Film
-		- Série
-		- Création
-	
-	Genre vidéo
-		- Horreur
-		- Aventure
-		- Streaming
-		- Comédie
-
+Créateur / Créatrice
+    - Pas de taxonomie pour ce type de contenu
+    - Il servira en champ de référence sur les contenus audio - vidéo - lecture
+    
 Lecture
 	Les taxonomies de lecture :
 	Support Littéraire
@@ -54,6 +46,20 @@ Lecture
 		- Aventure
 		- Comédie
 		- Essai
+
+Voir
+	Les taxonomies de Voir :
+	Support vidéo
+		- Film
+		- Série
+		- Création
+	
+	Genre vidéo
+		- Horreur
+		- Aventure
+		- Streaming
+		- Comédie
+
 Écouter
 	Les taxonomies d'Écouter :
 	Support audio
@@ -76,4 +82,6 @@ Les patterns utilisés
 * Pathauto support vidéo : ```support-video/[term:name]```
 * Pathauto étiquettes : ```etiquette/[term:name]```
 * Pathauto support littéraire : ```support-litteraire/[term:name]```
+* Pathauto Genre littéraire : ```genre-litteraire/[term:name]```
 * Pathauto Support audio : ```support-audio/[term:name]```
+* Pathauto créateur / créatrice : ```createur-creatrice/[node:title]```
