@@ -69,9 +69,11 @@ Lecture
 
 Les patterns utilisés
 
-* Pathauto articles : article/[node:title]
-* Pathauto catégories : categorie/[term:name]
-* pathauto genre vidéo genre-video/[term:name]
-* Pathauto pages page/[node:title]
-* Pathauto support vidéo support-video/[term:name]
-* Pathauto étiquettes etiquette/[term:name]
+* Pathauto articles : ```article/[node:title]```
+* Pathauto catégories : ```categorie/[term:name]```
+* pathauto genre vidéo : ```genre-video/[term:name]```
+* Pathauto pages : ```page/[node:title]```
+* Pathauto support vidéo : ```support-video/[term:name]```
+* Pathauto étiquettes : ```etiquette/[term:name]```
+* Pathauto support littéraire : ```support-litteraire/[term:name]```
+* Pathauto Support audio : ```support-audio/[term:name]```
