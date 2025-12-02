@@ -1,5 +1,11 @@
 # Nouvelles taxonomies
 
+## Création d'une taxonomie
+
+1. Créer le nouveau vocabulaire
+2. Créer l'alias d'url du vocabulaire
+3. Ajouter les termes 
+
 Voilà l'arborescence actuelle retenue
 
 | type de contenu   | Taxonomie(s)      |Réalisé    |
@@ -60,3 +66,12 @@ Lecture
 		- R&B
 		- Country
 ```
+
+Les patterns utilisés
+
+* Pathauto articles : article/[node:title]
+* Pathauto catégories : categorie/[term:name]
+* pathauto genre vidéo genre-video/[term:name]
+* Pathauto pages page/[node:title]
+* Pathauto support vidéo support-video/[term:name]
+* Pathauto étiquettes etiquette/[term:name]
