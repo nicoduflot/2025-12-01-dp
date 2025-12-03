@@ -22,3 +22,4 @@
 13. [Les menus](./013-les-menus.md)
 14. [Inclure vues et blocs dans les régions](./014-inclure-les-vues-blocs-dans-la-mise-en-page.md)
 15. [Thèmes de base](./015-theme-de-base.md)
+16. [Créer un thème enfant](./016-theme-enfant.md)
