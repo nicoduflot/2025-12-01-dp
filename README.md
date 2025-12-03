@@ -18,4 +18,7 @@
 9. [Remplacer le champ image des articles par un champ media type image](./009-remplacer-champ-contenu.md)
 10. [Création des taxonomies pour les nouveaux types de contenu](./010-nouvelles-taxonomies.md)
 11. [Création d'un type de contenu](./011-creation-nouveau-type-contenu.md)
-12. [Les vues]()
+12. [Les vues](./012-les-vues.md)
+13. [Les menus](./013-les-menus.md)
+14. [Inclure vues et blocs dans les régions](./014-inclure-les-vues-blocs-dans-la-mise-en-page.md)
+15. [Thèmes de base](./015-theme-de-base.md)
