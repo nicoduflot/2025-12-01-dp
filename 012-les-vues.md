@@ -36,11 +36,41 @@ Pour changer seulement l'affichage de la requête de la page d'accueil, il faut 
 
 ## 2. Création d'une vue
 
+* Accueil > Administration > Structure > Vues > Ajouter une vue 
+* Inscrire le nom de la vue
+* Paramètres de la vue : permet de préconfigurer la requête des données (le contenu) qui alimentera la vue.
+* Cocher créer une page
+* Indiquer le titre de la page
+* Le chemin de la page (équivalent à son alias d'url)
+* Paramètres d'affichage de la page permet de préconfigurer l'affichage final des éléments de la requête dans la vue
+* remplir les autres champs
+* enregistrer
 
+On arrive ensuite sur la configuration finale de la vue ou on pourra 
+* Changer le titre de la page
+* préciser le foramt d'affichage des résultats
+* Préciser les champs de sortie ou la forme du contenu
+* préciser la requête sur le contenu en ajoutant des filtres
+* préciser la requête sur le contenu en caractérisant le tri
 
 ## 3. Création d'un bloc sur une vue existante
 
+* Sur la page de modification d'une vue, il faut cliquer sur "Ajouter" dans la partie "Affichages" et choisir "bloc"
+* Attention, si l'affichage des champs et des données est différent de la page, ne pas oublier de supplanter l'affichage et de ne l'appliquer qu'au bloc
+* Gérer les champs comme pour la page
+* Enregistrer
+* Placer le bloc créé dans une région
 
 
 ## 4. Création conjointe vue et bloc
 
+* Accueil > Administration > Structure > Vues > Ajouter une vue 
+* Inscrire le nom de la vue
+* Paramètres de la vue : permet de préconfigurer la requête des données (le contenu) qui alimentera la vue.
+* Cocher "créer une page"
+    * Voir création d'une vue (#2)
+* Cocher "Créer un bloc"
+    * Préciser le titre
+    * Préconfigurer l'affichage des résultats
+    * Le nombre d'éléments par bloc
+    * Une fois enresitrer, voir la création d'un bloc sur une vue existante (#3)
