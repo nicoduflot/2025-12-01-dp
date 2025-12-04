@@ -23,3 +23,27 @@
 14. [Inclure vues et blocs dans les régions](./014-inclure-les-vues-blocs-dans-la-mise-en-page.md)
 15. [Thèmes de base](./015-theme-de-base.md)
 16. [Créer un thème enfant](./016-theme-enfant.md)
+
+## Atelier - exercice - td proposé
+
+1. Faire une installation de drupal (sans composer)
+2. Activer les extensions présintallées :
+    A. Media
+    B. Media library
+    C. Configuration Translation
+    D. Interface Translation
+    E. Language
+3. Installer activer les extensions suivantes : 
+    A. admin toolbar
+    B. token
+    C. pathauto
+    D. chaostools
+4. Mettre la langue FR
+5. Installer le thème [bootstrap5](https://www.drupal.org/project/bootstrap5/releases/4.0.6)
+6. Créer un sous-thème bs5
+7. Créer au moins deux types de contenus
+8. Créer au moins deux taxonomies
+9. Utiliser des champs référence contenu ou taxonomie dans les types de contenus créés
+10. Créer au moins une vue regroupant chaque type de contenu (sauf les pages de base) donc trois vues minimum
+11. Créer les vues bloc des vues contenus pour les ajouter à l'une des sidebar
+12. Gérer ces vues en lien dans le menu
