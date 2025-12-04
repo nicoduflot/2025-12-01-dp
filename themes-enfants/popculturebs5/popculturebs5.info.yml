@@ -3,7 +3,8 @@ type: theme
 description: 'Pop-culture bs5 subtheme based on Bootstrap 5 theme.'
 core_version_requirement: '^10.1 || ^11.0'
 'base theme': bootstrap5
-logo: images/pop-culture-logo-01.svg
+logo: 'images/pop-culture-logo-01.svg'
+favicon: 'images/pop-culture-logo-01.svg'
 libraries:
   - popculturebs5/global-styling
 ckeditor_stylesheets:
