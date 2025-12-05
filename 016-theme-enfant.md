@@ -277,4 +277,4 @@ Ensuite on fait une copie de menu.html.twig qu'on renomme
 
 **ATTENTION !!!**
 > S'il y a une erreur dans la syntaxe des éléments twig, des erreur dans les macro, les boucles ou autre, le site ne s'affichera plus.
-> il est donc conseillé de faire les modification au fur et à mesure
+> il est donc conseillé de faire les modifications au fur et à mesure
